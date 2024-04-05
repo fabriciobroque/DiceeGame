@@ -69,14 +69,14 @@ function winner() {
     var p2 = playerTwoValue();
 
     if (p1 > p2) {
-        document.querySelector('#winnerOutput').innerHTML = "Plaer One Wins!";
+        document.querySelector('#winnerOutput').innerHTML = "Player One Wins!";
         return p1;
     }
     else if (p1 === p2) {
         document.querySelector('#winnerOutput').innerHTML = "Draw!";
     }
     else {
-        document.querySelector('#winnerOutput').innerHTML = "Plaer Two Wins!";
+        document.querySelector('#winnerOutput').innerHTML = "Player Two Wins!";
         return p2;
     }
 
